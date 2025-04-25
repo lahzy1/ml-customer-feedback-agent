@@ -33,5 +33,5 @@ feedback_store: List[Feedback] = [
     }
 ]
 
-def query_feedback() -> List[Feedback]:
+def query_feedback(format=None) -> List[Feedback]:
     return feedback_store
